@@ -5,10 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Rigidbody rb;
+    [SerializeField] private ParticleSystem landingFX;
     [SerializeField] private Animator anim;
     [SerializeField] private string animationName;
     [SerializeField] private Vector2 force;
     private bool isGrounded;
+    private int landingCount;
 
     public void Jump()
     {
@@ -24,5 +26,8 @@ public class Player : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         isGrounded = true;
+        landingCount++;
+        if (landingCount>1)
+        landingFX.Play();
     }
 }

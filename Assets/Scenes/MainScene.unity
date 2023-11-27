@@ -2329,6 +2329,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 391738142, guid: b2523959f23d9fb49acdc5a6d1ea917b, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391738142, guid: b2523959f23d9fb49acdc5a6d1ea917b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 391738142, guid: b2523959f23d9fb49acdc5a6d1ea917b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.8501246
+      objectReference: {fileID: 0}
+    - target: {fileID: 391738142, guid: b2523959f23d9fb49acdc5a6d1ea917b, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.8575482
+      objectReference: {fileID: 0}
     - target: {fileID: 3560550299347599272, guid: b2523959f23d9fb49acdc5a6d1ea917b, type: 3}
       propertyPath: m_RootOrder
       value: 1
